@@ -75,3 +75,60 @@ header {
 }
 
 /*------------- header section styling end here -----------*/
+
+/*------------ player section styling start here ----------*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container,
+.news-main {
+    width: 1050px;
+}
+
+.players,
+.newses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.player,
+.news {
+    width: 330px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.player-photos,
+.news-thumbnail {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.player-photos img {
+    width: 100%;
+}
+
+.player-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    padding-bottom: 10px;
+}
+
+.player-description {
+    color: #6C6C6C;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/*----------- player section styleing end here -----------*/
