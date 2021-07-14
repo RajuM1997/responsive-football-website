@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-------------- header section styleing start here ------------*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 677px;
+    background: #2D25A0;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.main-hedaer {
+    width: 1160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.main-text {
+    width: 450px;
+    height: 250px;
+
+}
+
+.main-text h1 {
+    margin-bottom: 27px;
+    font-size: 64px;
+    color: #fff;
+}
+
+.watch-live-btn {
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.5s, color 0.5s;
+}
+
+.watch-live-btn:hover {
+    background: transparent;
+    border: 1px solid #E02C6D;
+    color: lightsalmon;
+}
+
+.fa,
+.fas {
+    font-weight: 700;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.banner-image {
+    width: 556px;
+    height: 438px;
+    margin-top: 40px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/*------------- header section styling end here -----------*/
