@@ -359,20 +359,6 @@ a .fab {
         margin-bottom: 10px;
     }
 
-
-    footer {
-        margin: 40px 0;
-    }
-
-    .logo {
-        width: 285px;
-        height: 93px;
-    }
-
-    .social-link a {
-        padding-bottom: 10px;
-    }
-
     .contact_me {
         width: 100%;
     }
@@ -398,5 +384,18 @@ a .fab {
         border: none;
         border-radius: 10px;
         overflow: hidden;
+    }
+
+    footer {
+        margin: 40px 0;
+    }
+
+    .logo {
+        width: 285px;
+        height: 93px;
+    }
+
+    .social-link a {
+        padding-bottom: 10px;
     }
 }
