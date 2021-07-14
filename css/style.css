@@ -132,3 +132,212 @@ main {
 }
 
 /*----------- player section styleing end here -----------*/
+
+/*------------- news section styleing start ------------*/
+
+.news-main {
+    margin: 35px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news {
+    width: 320px;
+    height: 380px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.news-thumbnail img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.news-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.news-info {
+    color: #999;
+}
+
+/*------------- news section end here ----------*/
+
+/*------------ contact section styling here -----------*/
+
+.contact {
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.forms {
+    width: 100%;
+    padding-bottom: 80px;
+    background: linear-gradient(to right top, #65efc9, #6cdbeb);
+}
+
+.contact_me {
+    width: 800px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    box-shadow: 5px 5px 25px 10px rgb(0 0 0 / 10%);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px 15px;
+    font-size: 18px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 10px;
+}
+
+input,
+textarea:focus {
+    outline: none;
+}
+
+.submit_btn {
+    text-decoration: none;
+    background: crimson;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.btn {
+    padding-top: 20px;
+}
+
+
+/*------------ contact section end here -----------*/
+
+
+/*--------- media screen start here ----------*/
+
+/*--------- mobile media quray ---------*/
+
+@media only screen and (max-width: 687px) {
+
+    main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-hedaer {
+        width: 360px;
+        height: 695px;
+        flex-direction: column;
+        overflow-x: hidden;
+
+    }
+
+    .main-text {
+        Width: 278px;
+        Height: 138px;
+    }
+
+    .main-text h1 {
+        font-size: 36px;
+    }
+
+    .banner-image {
+        width: 329px;
+        height: 259px;
+        margin: 0;
+        display: block;
+        overflow: hidden;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    .players,
+    .newses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .famous-footballer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .news {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-title {
+        margin-bottom: 10px;
+    }
+
+
+    footer {
+        margin: 40px 0;
+    }
+
+    .logo {
+        width: 285px;
+        height: 93px;
+    }
+
+    .social-link a {
+        padding-bottom: 10px;
+    }
+
+    .contact_me {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .forms {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    input,
+    label,
+    textarea {
+        width: 269px;
+        height: 40px;
+        padding: 15px 0px;
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+
+}
